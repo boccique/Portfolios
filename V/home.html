@@ -21,7 +21,7 @@
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-        table {
+        table{
             border-spacing: 0;
             mso-cellspacing: 0;
             mso-padding-alt: 0;
@@ -37,8 +37,37 @@
 
         a{
             text-decoration: none;
-            color: #FFFFFF;
+            color: #ffffff;
             font-size: 9px;
+        }
+
+        @media screen and (max-width: 599.98px){}
+
+        @media screen and (max-width: 399.98px){
+            .mobile-padding{
+                padding-right: 10px !important;
+                padding-left: 10px !important;
+            }
+
+            .mobile-col-padding{
+                padding-right: 0 !important;
+                padding-left: 0 !important;
+            }
+
+            .two-colomuns .column{
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .three-columns .column{
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .three-columns .column img{
+                width: 100% !important;
+                max-width: 100% !important;
+            }
         }
     </style>
 </head>
