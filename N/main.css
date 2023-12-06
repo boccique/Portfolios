@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
+header{
+    position: fixed;
+}
         /* || END OF GENERAL STYLES */
 
 
