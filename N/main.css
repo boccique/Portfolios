@@ -86,25 +86,9 @@ footer{
     background: #262630;
     display: flex;
     justify-content: center;
-}
-.footer-main{
-    display: flex;
-    justify-content: center;
-            width: 100%;
-}
-.line-controller{
-    display: flex;
-    width: 100%;
-    justify-content: center;
     align-items: flex-end;
 }
-.line{
-    background: #ffffff;
-    height: 2px;
-    position: relative;
-    bottom: 82px;
-    width: 90%;
-}
+
         /* END OF FOOTER SECTION */
 
 
