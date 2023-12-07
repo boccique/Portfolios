@@ -91,7 +91,7 @@ footer{
 .footer-main{
     position: relative;
     width: 100%;
-    border: solid red;
+/*    border: solid red;*/
     border-radius: 50px;
     height: 655px;
     display: flex;
@@ -101,7 +101,7 @@ footer{
 .footer-second{
     position: relative;
     width: 100%;
-    border: solid rebeccapurple;
+/*    border: solid rebeccapurple;*/
     height: 90px;
     border-radius: 50px;
     display: flex;
@@ -117,14 +117,14 @@ footer{
 .footer-btns-main-section{
     position: relative;
     width: 100%;
-    border: solid gold;
+/*    border: solid gold;*/
     height: 275px;
 }
 .line-section{
     position: relative;
     width: 100%;
 /*    border: solid gainsboro;*/
-    height: 20px;
+    height: 14px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -132,14 +132,44 @@ footer{
 .reference-text-section{
     position: relative;
     width: 100%;
-    border: solid #d94f8d;
-    height: 60px;
+/*    border: solid #d94f8d;*/
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .line{
     width: 98%;
     height: 1px;
     background: #ffffff;
     margin-top: 6px;
+}
+.refinfo{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 16px;
+}
+.ref-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#item1{
+    margin-left: 36px;
+}
+#item2{
+    margin-left: 36px;
+}
+#item3{
+    margin-left: 36px;
+    margin-right: 23px;
+}
+#c-sign{
+    margin-left: 19px;
 }
             /* END OF FOOTER SECTION */
 
