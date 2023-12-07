@@ -120,7 +120,7 @@ footer{
 .footer-btns-main-section{
     position: relative;
     width: 100%;
-    border: solid gold;
+/*    border: solid gold;*/
     height: 275px;
     display: flex;
     justify-content: center;
@@ -198,16 +198,19 @@ footer{
     border-radius: 63px;
 }
 .transparent-btns-section{
-    border: solid red;
+/*    border: solid red;*/
     width: 70%;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
 }
 .write-me-a-message-btn-section{
-    border: solid blue;
+/*    border: solid blue;*/
     width: 30%;
-        }
+    display: flex;
+    justify-content: flex-end;
+
+}
 .transparent-btn1{
     border-radius: 29.5px;
     border: 1px solid #FFF;
@@ -244,7 +247,33 @@ footer{
     width: 119px;
     margin-left: 8px;
 }
-
+.wrt-msg-btn{
+    border-radius: 29.5px;
+    background: #2264DC;
+    width: 157.903px;
+    height: 45px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.write-me{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+}
+.white-dot{
+    background: #ffffff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-left: 33px;
+    margin-top: 18px;
+        }
             /* END OF FOOTER SECTION */
 
 
