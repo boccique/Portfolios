@@ -113,6 +113,9 @@ footer{
     width: 100%;
     border: solid green;
     height: 380px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 .footer-btns-main-section{
     position: relative;
@@ -145,7 +148,7 @@ footer{
     margin-top: 6px;
 }
 .refinfo{
-    color: #FFF;
+    color: #ffffff;
     font-family: Manrope;
     font-size: 12px;
     font-style: normal;
@@ -170,6 +173,26 @@ footer{
 }
 #c-sign{
     margin-left: 19px;
+}
+.main-question-text-section{
+    position: relative;
+    width: 100%;
+/*    border: solid gold;*/
+    height: 230px;
+    width: 1000px;
+    margin-top: 140px;
+    margin-right: 260px;
+    color: #ffffff;
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-photo{
+    width: 63px;
+    height: 63px;
+    border-radius: 63px;
 }
             /* END OF FOOTER SECTION */
 
