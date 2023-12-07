@@ -6,7 +6,16 @@
 }
 header{
     position: fixed;
+
 }
+footer{
+
+}
+main{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+        }
         /* || END OF GENERAL STYLES */
 
 
@@ -67,8 +76,29 @@ header{
 
 
         /* FOOTER SECTION */
+.footer-main{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.bg-color{
+    background: #262630;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 745px;
+    z-index: 1;
 
-
+}
+.line{
+    position: relative;
+    width: 1370px;
+    height: 2px;
+    background: #ffffff;
+    z-index: 2;
+    display: flex;
+    bottom: 82px;
+        }
 
         /* END OF FOOTER SECTION */
 
