@@ -92,7 +92,7 @@ footer{
     position: relative;
     width: 100%;
     border: solid red;
-    border-radius: 200px;
+    border-radius: 50px;
     height: 655px;
     display: flex;
     justify-content: center;
@@ -103,7 +103,10 @@ footer{
     width: 100%;
     border: solid rebeccapurple;
     height: 90px;
-            border-radius: 200px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .footer-text-main-section{
     position: relative;
@@ -112,9 +115,31 @@ footer{
     height: 380px;
 }
 .footer-btns-main-section{
+    position: relative;
     width: 100%;
     border: solid gold;
     height: 275px;
+}
+.line-section{
+    position: relative;
+    width: 100%;
+/*    border: solid gainsboro;*/
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.reference-text-section{
+    position: relative;
+    width: 100%;
+    border: solid #d94f8d;
+    height: 60px;
+}
+.line{
+    width: 98%;
+    height: 1px;
+    background: #ffffff;
+    margin-top: 6px;
 }
             /* END OF FOOTER SECTION */
 
