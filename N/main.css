@@ -1,4 +1,5 @@
         /* || GENERAL STYLES */
+
 *{
     font-family: 'Manrope', sans-serif;
     margin: 0px;
@@ -8,15 +9,12 @@ header{
     position: fixed;
 
 }
-footer{
-
-}
 body{
     min-height: 100%;
     width: 100%;
     height: 100%;
     position: absolute;
-    }
+}
 
         /* || END OF GENERAL STYLES */
 
@@ -78,6 +76,7 @@ body{
 
 
         /* FOOTER SECTION */
+
 footer{
     position: absolute;
     width: 100%;
@@ -85,9 +84,27 @@ footer{
     left: 0;
     height: 745px;
     background: #262630;
+    display: flex;
+    justify-content: center;
 }
-
-
+.footer-main{
+    display: flex;
+    justify-content: center;
+            width: 100%;
+}
+.line-controller{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.line{
+    background: #ffffff;
+    height: 2px;
+    position: relative;
+    bottom: 82px;
+    width: 90%;
+}
         /* END OF FOOTER SECTION */
 
 
