@@ -89,19 +89,34 @@ footer{
     flex-direction: column;
 }
 .footer-main{
+    position: relative;
     width: 100%;
     border: solid red;
     border-radius: 200px;
     height: 655px;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .footer-second{
+    position: relative;
     width: 100%;
     border: solid rebeccapurple;
     height: 90px;
             border-radius: 200px;
 }
-        /* END OF FOOTER SECTION */
+.footer-text-main-section{
+    position: relative;
+    width: 100%;
+    border: solid green;
+    height: 380px;
+}
+.footer-btns-main-section{
+    width: 100%;
+    border: solid gold;
+    height: 275px;
+}
+            /* END OF FOOTER SECTION */
 
 
 
