@@ -111,7 +111,7 @@ footer{
 .footer-text-main-section{
     position: relative;
     width: 100%;
-    border: solid green;
+/*    border: solid green;*/
     height: 380px;
     display: flex;
     justify-content: flex-end;
@@ -120,8 +120,11 @@ footer{
 .footer-btns-main-section{
     position: relative;
     width: 100%;
-/*    border: solid gold;*/
+    border: solid gold;
     height: 275px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 .line-section{
     position: relative;
@@ -194,7 +197,58 @@ footer{
     height: 63px;
     border-radius: 63px;
 }
+.transparent-btns-section{
+    border: solid red;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.write-me-a-message-btn-section{
+    border: solid blue;
+    width: 30%;
+        }
+.transparent-btn1{
+    border-radius: 29.5px;
+    border: 1px solid #FFF;
+    width: 145px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 655px;
+
+}
+.transparent-btn2{
+    border-radius: 29.5px;
+    border: 1px solid #FFF;
+    width: 181px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 86px;
+}
+.addresing{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 83px;
+    height: 19px;
+    margin-top: 13px;
+}
+#number{
+    width: 119px;
+    margin-left: 8px;
+}
+
             /* END OF FOOTER SECTION */
+
+
+
 
 
 
