@@ -1,0 +1,73 @@
+        /* || GENERAL STYLES */
+
+*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: solid sandybrown;
+    overflow: hidden;
+}
+
+        /* || END OF GENERAL STYLES */
+
+.content{
+    position: absolute;
+    border: solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header{
+    position: relative;
+    border: solid blue;
+    border-radius: 100px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+        }
+main{
+    position: relative;
+    border: solid 5px #597a27;
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+footer{
+    position: relative;
+    border: solid black;
+    width: 100%;
+    height: 10%;
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
