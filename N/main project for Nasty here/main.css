@@ -1,0 +1,21 @@
+        /* || GENERAL STYLES */
+
+*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+
+}
+body{
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+        /* || END OF GENERAL STYLES */
+
+                
