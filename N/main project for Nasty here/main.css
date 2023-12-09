@@ -51,11 +51,12 @@ header{
 
 /*    PLACE IT A BIT ABOVE GOOOD BOY       */
 .burger{
-    margin-bottom: 10px;
-    text-align: top;
     padding-right: 10px;
     width: 15px;
     height: 7px;
+}
+svg{
+    padding-bottom: 2px;
 }
 .menu{
     width: 70px;
