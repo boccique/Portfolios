@@ -74,6 +74,7 @@ svg{
     justify-content: flex-start;
     margin-left: 25px;
     margin-top: 22px;
+    height: 16px;
 }
 li{
     list-style: none;
