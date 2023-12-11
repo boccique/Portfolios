@@ -233,6 +233,20 @@ footer{
     justify-content: flex-start;
     height: 246px;
 }
+.line-breaking-through{
+    height: 210px;
+    position: relative;
+    border: solid 2px #5386ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.the-linebreak{
+    border: solid 1px #FFF;
+    margin-bottom: 2px;
+    width: 1537px;
+    margin-left: 191px;
+        }
         /*END OF FOOTER SECTION*/
 
 
