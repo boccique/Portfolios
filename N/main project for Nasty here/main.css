@@ -227,7 +227,6 @@ footer{
 }
 .footer-secondary-section{
     position: relative;
-    border: solid #8bef59;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -236,7 +235,6 @@ footer{
 .line-breaking-through{
     height: 210px;
     position: relative;
-    border: solid 2px #5386ec;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -257,6 +255,8 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 14px;
+    margin-bottom: 52px;
 }
 #year2023{
     margin-left: 191px;
