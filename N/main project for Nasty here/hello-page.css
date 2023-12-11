@@ -94,6 +94,23 @@ main{
     width: 602px;
     height: 530px;
 }
+.photo-site-mama-mila{
+    display: flex;
+}
+#mamamila{
+    width: 602px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.text-site-mama-mila{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .photo-section-secondary{
     border: solid #e01f1f;
     display: flex;
