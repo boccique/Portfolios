@@ -246,7 +246,35 @@ footer{
     margin-bottom: 2px;
     width: 1537px;
     margin-left: 191px;
-        }
+}
+.external-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#year2023{
+    margin-left: 191px;
+    margin-right: 1254px;
+    width: 44.872px;
+}
+#Behance{
+    margin-right: 43px;
+    width: 54.969px;
+}
+#Github{
+    margin-right: 40px;
+    width: 42.629px;
+}
+#Telegram{
+    margin-right: 191px;
+    width: 58.334px;
+}
         /*END OF FOOTER SECTION*/
 
 
