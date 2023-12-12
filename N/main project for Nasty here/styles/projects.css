@@ -25,12 +25,35 @@ main{
 }
 .filter{
     height: 100%;
-    width: 41.6%;
-    border: solid skyblue;
+    width: 41.95%;
 }
-
+.text-block{
+    margin-top: 65px;
+    width: 90px;
+    height: 150px;
+    margin-left: 347px;
+}
+.text-block-main{
+    width: 80px;
+    height: 15px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.text-block-secondary{
+    color: #969696;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .photo-section-main{
-    height: 1500px;
+    height: 1200px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
