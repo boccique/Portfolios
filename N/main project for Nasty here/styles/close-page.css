@@ -11,6 +11,9 @@ body{
     position: absolute;
     background: #262630;
 }
+a{
+    text-decoration: none;
+}
     /* || END OF GENERAL STYLES */
 header{
     display: flex;
