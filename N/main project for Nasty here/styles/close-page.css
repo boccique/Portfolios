@@ -61,7 +61,9 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    width: 1020px;
+    height: 109px;
+    margin-bottom: 17px;
 }
 .nav-pages::before{
     transform-origin: left 2px;
