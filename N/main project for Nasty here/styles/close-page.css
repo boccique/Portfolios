@@ -51,12 +51,23 @@ main{
     margin-top: 145px;
 }
 .nav-pages{
+    width: 1227px;
+    height: 126px;
+}
+.pages{
     color: #FFF;
     font-family: Manrope;
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 1020px;
-    height: 126px;
+
+}
+.nav-pages::before{
+    transform-origin: left 2px;
+        }
+.nav-pages:hover{
+    border-bottom: solid 1px #FFF;
+    transition: 1s;
+
 }
