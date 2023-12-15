@@ -65,11 +65,30 @@ main{
     height: 109px;
     margin-bottom: 17px;
 }
-.nav-pages::before{
-    transform-origin: left 2px;
-        }
-.nav-pages:hover{
-    border-bottom: solid 1px #FFF;
-    transition: 1s;
+.nav-pages {
+    position: relative;
+    cursor: pointer;
+}
+.nav-pages:after {
+	content: "";
+    display: block;
+    position: absolute;
+/*    right: 0;*/
+    bottom: -3px;
+    width: 0;
+    height: 1px;  /*Высота линии*/
+    background-color: #FFF;  /*Цвет подчеркивания при исчезании линии*/
+    transition: width 1s;  /*Время эффекта*/
+}
 
+.nav-pages:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+/*    bottom: -3px;*/
+    height: 1px; /* Высота линии */
+    background-color: #FFF; /* Цвет подчеркивания при появлении линии*/
+    transition: width 1s;  /* Время эффекта */
 }
