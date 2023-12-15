@@ -74,7 +74,7 @@ main{
     display: block;
     position: absolute;
 /*    right: 0;*/
-    bottom: -3px;
+/*    bottom: -3px;*/
     width: 0;
     height: 1px;  /*Высота линии*/
     background-color: #FFF;  /*Цвет подчеркивания при исчезании линии*/
