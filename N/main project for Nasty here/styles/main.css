@@ -7,7 +7,7 @@
 }
 header{
     position: fixed;
-
+    z-index: 100;
 }
 body{
     width: 100%;
