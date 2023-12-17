@@ -19,6 +19,40 @@
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <title>ТЕСТ</title>
+    <style>
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        left: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+</style>
+
 </head>
 
 <body>
@@ -28,7 +62,7 @@
         <header>
             <div class="header-main-section">
                 <div class="active-menu">
-                    <div class="burger">
+                    <div class="burger" style="cursor:pointer" onclick="openNav()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="7" viewBox="0 0 15 7" fill="none">
                             <rect x="15" y="1" width="15" height="0.999998" transform="rotate(-180 15 1)" fill="black"/>
                             <rect x="15" y="7" width="15" height="0.999998" transform="rotate(-180 15 7)" fill="black"/>
@@ -45,8 +79,18 @@
                     </ul>
                 </div>
             </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <rect x="10.6064" y="11.3137" width="15" height="0.999998" transform="rotate(-135 10.6064 11.3137)"
+                          fill="white"/>
+                    <rect x="11.3135" y="0.707031" width="15" height="0.999998" transform="rotate(135 11.3135 0.707031)"
+                          fill="white"/>
+                </svg>
+                Закрыть
+                </a>
+            </div>
         </header>
-
 
 
         <main>
@@ -176,7 +220,15 @@
             </div>
         </footer>
 
-<script src="js/script-menu.js"></script>
+<script src="js/script-menu.js">
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 </body>
 </html>
