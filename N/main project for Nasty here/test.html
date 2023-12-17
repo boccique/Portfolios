@@ -21,36 +21,11 @@
     <title>ТЕСТ</title>
     <style>
     .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-        text-align:center;
-    }
-
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #000000;
-        display: block;
-        transition: 0.3s;
 
     }
 
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        left: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
+
+
 </style>
 
 </head>
@@ -62,13 +37,31 @@
         <header>
             <div class="header-main-section">
                 <div class="active-menu">
+
+
+
+                    
                     <div class="burger" style="cursor:pointer" onclick="openNav()">
+
+
+
+
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="7" viewBox="0 0 15 7" fill="none">
                             <rect x="15" y="1" width="15" height="0.999998" transform="rotate(-180 15 1)" fill="black"/>
                             <rect x="15" y="7" width="15" height="0.999998" transform="rotate(-180 15 7)" fill="black"/>
                         </svg>
                     </div>
-                    <div class="menu">Меню</div>
+
+
+
+
+                    <div class="menu" style="cursor:pointer" onclick="openNav()">Меню</div>
+
+
+
+
+
+
                 </div>
                 <div class="text-menu">
                     <ul class="menu-list">
@@ -79,17 +72,36 @@
                     </ul>
                 </div>
             </div>
+
+
+
+
+
+
             <div id="mySidenav" class="sidenav">
+                <div class="close">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <svg style="padding-bottom: 0;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
                     <rect x="10.6064" y="11.3137" width="15" height="0.999998" transform="rotate(-135 10.6064 11.3137)"
                           fill="white"/>
                     <rect x="11.3135" y="0.707031" width="15" height="0.999998" transform="rotate(135 11.3135 0.707031)"
                           fill="white"/>
                 </svg>
-                Закрыть
+                    <span>Закрыть</span>
                 </a>
+                </div>
+                <div class="navigation">
+                    <a href="hello-page.html"><div class="nav-pages"><div class="pages">Главная</div></div></a>
+                    <a href="projects.html"><div class="nav-pages"><div class="pages">Работы</div></div></a>
+                    <a href="about.html"><div class="nav-pages"><div class="pages">Обо мне</div></div></a>
+                    <a href="contacts.html"><div class="nav-pages"><div class="pages">Контакты</div></div></a>
+                </div>
             </div>
+
+
+
+
+
         </header>
 
 
@@ -220,15 +232,7 @@
             </div>
         </footer>
 
-<script src="js/script-menu.js">
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
+<script src="js/script-menu.js"></script>
 
 </body>
 </html>
