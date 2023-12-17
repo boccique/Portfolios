@@ -18,6 +18,7 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles/close.css">
     <title>Главная</title>
 </head>
 
@@ -28,13 +29,13 @@
         <header>
             <div class="header-main-section">
                 <div class="active-menu">
-                    <div class="burger">
+                    <div class="burger" style="cursor:pointer" onclick="openNav()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="7" viewBox="0 0 15 7" fill="none">
                             <rect x="15" y="1" width="15" height="0.999998" transform="rotate(-180 15 1)" fill="black"/>
                             <rect x="15" y="7" width="15" height="0.999998" transform="rotate(-180 15 7)" fill="black"/>
                         </svg>
                     </div>
-                    <div class="menu">Меню</div>
+                    <div class="menu" style="cursor:pointer" onclick="openNav()">Меню</div>
                 </div>
                 <div class="text-menu">
                     <ul class="menu-list">
@@ -43,6 +44,26 @@
                         <li><a href="about.html">Обо мне</a></li>
                         <li><a href="contacts.html">Контакты</a></li>
                     </ul>
+                </div>
+            </div>
+
+             <div id="mySidenav" class="sidenav">
+                <div class="close">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                <svg style="padding-bottom: 0;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <rect x="10.6064" y="11.3137" width="15" height="0.999998" transform="rotate(-135 10.6064 11.3137)"
+                          fill="white"/>
+                    <rect x="11.3135" y="0.707031" width="15" height="0.999998" transform="rotate(135 11.3135 0.707031)"
+                          fill="white"/>
+                </svg>
+                    <span>Закрыть</span>
+                </a>
+                </div>
+                <div class="navigation">
+                    <a href="hello-page.html"><div class="nav-pages"><div class="pages">Главная</div></div></a>
+                    <a href="projects.html"><div class="nav-pages"><div class="pages">Работы</div></div></a>
+                    <a href="about.html"><div class="nav-pages"><div class="pages">Обо мне</div></div></a>
+                    <a href="contacts.html"><div class="nav-pages"><div class="pages">Контакты</div></div></a>
                 </div>
             </div>
         </header>
