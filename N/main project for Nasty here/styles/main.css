@@ -156,9 +156,10 @@ footer{
     border: 1px solid #FFF;
     margin-left: 507px;
     margin-top: 28px;
-    transition: 0.8s;
+    transition: 0.8s, border 1.25s ease;
 }
 #email-btn:hover{
+    border: 1px solid #262630;
     border-radius: 29.5px;
     background: #2264DC;
 }
@@ -179,9 +180,10 @@ footer{
     border: 1px solid #FFF;
     margin-left: 86px;
     margin-top: 28px;
-    transition: 1s;
+    transition: 0.8s, border 1.25s ease-in-out;
 }
 #number-btn:hover{
+    border: 1px solid #262630;
     border-radius: 29.5px;
     background: #2264DC;
 }

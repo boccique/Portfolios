@@ -146,6 +146,12 @@ main{
     height: 45px;
     border-radius: 29.5px;
     border: 1px solid #FFF;
+    transition: 0.8s, border 1s ease-in-out;
+}
+.btn1:hover{
+    border: 1px solid #262630;
+    border-radius: 29.5px;
+    background: #2264DC;
 }
 .text-btn-1{
     color: #FFF;
@@ -176,6 +182,12 @@ main{
     height: 45px;
     border-radius: 29.5px;
     border: 1px solid #FFF;
+    transition: 0.8s, border 1s ease-in-out;
+}
+.btn2:hover{
+    border: 1px solid #262630;
+    border-radius: 29.5px;
+    background: #2264DC;
 }
 .content-box2{
     display: flex;
