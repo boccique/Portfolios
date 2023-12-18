@@ -1,0 +1,27 @@
+body {
+    background: black;
+}
+
+canvas {
+    transform:translate(calc(50vw - 50%), calc(50vh - 50%));
+}
+
+svg {
+    position:absolute;
+    top: 0;
+    left: calc(50vw - 150px);
+    pointer-events:none;
+}
+
+svg g {
+    pointer-events: all;
+}
+
+svg g circle {
+     cursor: pointer;
+    transition: 0.1s;
+}
+
+svg g circle:hover {
+    transform:scale(1.2);
+}

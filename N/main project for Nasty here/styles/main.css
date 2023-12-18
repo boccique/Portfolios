@@ -88,6 +88,9 @@ a{
 a.main-menu-class:hover{
     color: #000000;
 }
+.main-menu-class{
+    transition: 0.25s;
+}
 
 
 

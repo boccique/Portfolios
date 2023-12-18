@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="fun.css">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3-voronoi.v1.min.js"></script>
+<canvas id="canvas"></canvas>
+<svg>
+    <g transform="translate(165,20)" onclick="uiClick('erase')">
+        <circle r=10 fill=white ></circle>
+    </g>
+    <g transform="translate(135,20)" onclick="uiClick('draw')">
+        <circle r=8.5 fill=black stroke="white" stroke-width="3"></circle>
+    </g>
+    <circle transform="translate(135,20)" r=14 id="selected"
+            fill="none" stroke="red" stroke-width="1.7"></circle>
+</svg>
+<script src="fun.js"></script>
