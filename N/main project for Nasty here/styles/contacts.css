@@ -81,6 +81,12 @@ a{
     text-decoration: none;
     color: #969696;
 }
+.main-menu-class{
+    transition: 0.25s;
+}
+.main-menu-class:hover{
+    color: #FFF;
+}
 .menu-text{
     color: #969696;
     font-family: Manrope;
