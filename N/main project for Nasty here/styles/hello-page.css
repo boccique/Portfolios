@@ -162,6 +162,7 @@ main{
     border: 1px solid #000;
     background: #262630;
     margin-left: 506px;
+    transition: 0.8s, border 0.8s ease;
 }
 #see-more{
     width: 119px;
@@ -174,7 +175,11 @@ main{
     font-weight: 400;
     line-height: normal;
 }
-
+.btn-section-more:hover{
+    border: 1px solid #2264DC;
+    border-radius: 29.5px;
+    background: #2264DC;
+}
 
 
 
