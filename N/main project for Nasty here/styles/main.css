@@ -84,7 +84,9 @@ a{
     color: #969696;
     font-family: Manrope;
     font-size: 12px;
-
+}
+a.main-menu-class:hover{
+    color: #000000;
 }
 
 
