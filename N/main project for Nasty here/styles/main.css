@@ -161,7 +161,7 @@ footer{
     border: 1px solid #FFF;
     margin-left: 507px;
     margin-top: 28px;
-    transition: 0.8s, border 1s ease;
+    transition: 0.8s, border 0.5s ease;
 }
 #email-btn:hover{
     border: 1px solid #262630;
@@ -185,7 +185,7 @@ footer{
     border: 1px solid #FFF;
     margin-left: 86px;
     margin-top: 28px;
-    transition: 0.8s, border 1s ease-in-out;
+    transition: 0.8s, border 0.5s ease-in-out;
 }
 #number-btn:hover{
     border: 1px solid #262630;
@@ -279,17 +279,11 @@ footer{
     width: 54.969px;
     transition: 0.28s ease-in-out;
 }
-#Behance:hover{
-    color: #969696;
-}
 #Github{
     cursor: pointer;
     margin-right: 40px;
     width: 42.629px;
     transition: 0.28s ease-in-out;
-}
-#Github:hover{
-    color: #969696;
 }
 #Telegram{
     cursor: pointer;
@@ -297,7 +291,10 @@ footer{
     width: 58.334px;
     transition: 0.28s ease-in-out;
 }
-#Telegram:hover{
-    color: #969696;
+.footer-menu-class{
+    color: #FFF;
+}
+.footer-menu-class:hover{
+    color: #969696
 }
         /*END OF FOOTER SECTION*/
