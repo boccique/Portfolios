@@ -72,13 +72,23 @@ main{
     display: flex;
 }
 .text-site-myself{
+    display: flex;
+    flex-direction: row;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 135px;
+    overflow: hidden;
+    gap: 20px;
+    transition: 0.3s;
 }
+.text-site-myself:hover{
+    gap: 0px;
+}
+
 #mysite{
     width: 602px;
     height: 477px;
@@ -156,10 +166,11 @@ main{
     line-height: normal;
 }
 .btn-section-more{
+    cursor: pointer;
     width: 157.903px;
     height: 45px;
     border-radius: 29.5px;
-    border: 1px solid #000;
+    border: 1px solid #262630;
     background: #262630;
     margin-left: 506px;
     transition: 0.8s, border 0.8s ease;

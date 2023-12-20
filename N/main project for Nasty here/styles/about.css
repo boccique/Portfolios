@@ -54,7 +54,7 @@ main{
     line-height: normal;
 }
 .btn-section-write-to-me{
-    width: 157.903px;
+    width: 126px;
     height: 45px;
     border-radius: 29.5px;
     background: #2264DC;
@@ -76,9 +76,7 @@ main{
     height: 19px;
     width: 64px;
 }
-#dot-svg{
-    margin-top: 15px;
-}
+
 .about-section-photo-box{
     width: 603px;
     height: 477px;
