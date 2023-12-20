@@ -80,15 +80,11 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 135px;
+    width: 125px;
     overflow: hidden;
-    gap: 20px;
     transition: 0.3s;
+    gap: 15px;
 }
-.text-site-myself:hover{
-    gap: 0px;
-}
-
 #mysite{
     width: 602px;
     height: 477px;
@@ -109,6 +105,9 @@ main{
     margin-bottom: 28px;
 }
 .text-site-mama-mila{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
@@ -137,6 +136,9 @@ main{
     margin-bottom: 28px;
 }
 .text-identity-nelepizza{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
@@ -157,7 +159,10 @@ main{
     border-radius: 18px;
     margin-bottom: 28px;
 }
-.text-from-table{
+.text-section-four{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
