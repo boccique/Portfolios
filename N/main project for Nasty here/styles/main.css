@@ -93,13 +93,8 @@ a.main-menu-class:hover{
 
         /*@MEDIA SECTION*/
 @media all and (max-width: 1500px) {
-        .menu{
-            display: none;
-            transition: 1s;
-        }
         .text-menu{
             display: none;
-            transition: 1s;
             }
         }
         /*END OF @MEDIA SECTION*/
