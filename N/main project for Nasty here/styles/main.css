@@ -91,7 +91,18 @@ a.main-menu-class:hover{
     transition: 0.25s;
 }
 
-
+        /*@MEDIA SECTION*/
+@media all and (max-width: 1500px) {
+        .menu{
+            display: none;
+            transition: 1s;
+        }
+        .text-menu{
+            display: none;
+            transition: 1s;
+            }
+        }
+        /*END OF @MEDIA SECTION*/
 
         /*FOOTER SECTION*/
 
