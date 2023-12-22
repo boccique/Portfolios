@@ -1,5 +1,4 @@
         /* || GENERAL STYLES */
-
 *{
     font-family: 'Manrope', sans-serif;
     margin: 0px;
@@ -202,7 +201,6 @@ footer{
     width: 119px;
     margin-top: 13px;
     margin-left: 31px;
-    cursor: pointer;
 }
 #writing-btn{
     width: 126px;
@@ -224,7 +222,6 @@ footer{
     line-height: normal;
     margin-top: 13px;
     margin-left: 31px;
-    cursor: pointer;
 }
 .footer-secondary-section{
     position: relative;
@@ -265,19 +262,16 @@ footer{
     width: 44.872px;
 }
 #Behance{
-    cursor: pointer;
     margin-right: 43px;
     width: 54.969px;
     transition: 0.28s ease-in-out;
 }
 #Github{
-    cursor: pointer;
     margin-right: 40px;
     width: 42.629px;
     transition: 0.28s ease-in-out;
 }
 #Telegram{
-    cursor: pointer;
     margin-right: 191px;
     width: 58.334px;
     transition: 0.28s ease-in-out;
