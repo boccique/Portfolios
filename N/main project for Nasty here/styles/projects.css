@@ -8,7 +8,7 @@ main{
     flex-direction: column;
     left: 0;
     width: 100%;
-    height: 1403px;
+    height: 4403px;
 }
 .main-text-section{
     width: 1254px;
@@ -183,18 +183,40 @@ main{
     font-weight: 400;
     line-height: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.photo-section-others{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 906px;
+    height: 2900px;
+    left: 798px;
+    gap: 56px;
+}
+.sec{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 530px;
+    gap: 20px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 444px;
+}
+.img-sec{
+    width: 443px;
+    height: 477px;
+}
+.text-sec{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 
