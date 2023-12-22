@@ -92,3 +92,27 @@ span{
 svg{
     margin-right: 5.69px;
 }
+@media all and (max-width: 1024px){
+    .pages{
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 289px;
+        height: 55px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        width: 289px;
+        height: 55px;
+        margin-left: 26px;
+        margin-top: 145px;
+    }
+    .close{
+        margin-top: 29px;
+        margin-left: 28px;
+    }
+}
