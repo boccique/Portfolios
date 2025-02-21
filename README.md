@@ -13,5 +13,11 @@ Tech Stack:
 
 Clone the repository and follow setup instructions to run the project:
 
+```sh
 git clone https://github.com/boccique/Portfolio.git
 cd Portfolio
+```
+
+![imgage](images/img-1.png)
+![imgage](images/img-2.png)
+![imgage](images/img-3.png)
