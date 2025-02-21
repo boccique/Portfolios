@@ -1,5 +1,5 @@
-###The Portfolio of N&V
-#A personal web application designed to showcase my skills and projects in web development and design. The website includes interactive elements, dynamic content, and a clean, modern design built with HTML, CSS, and JavaScript.
+### The Portfolio of N&V
+# A personal web application designed to showcase my skills and projects in web development and design. The website includes interactive elements, dynamic content, and a clean, modern design built with HTML, CSS, and JavaScript.
 
 Features:
  - **HTML, CSS, JavaScript** – Used for frontend design and dynamic content.    
@@ -18,6 +18,6 @@ git clone https://github.com/boccique/Portfolio.git
 cd Portfolio
 ```
 
-![imgage](images/img-1.png)
-![imgage](images/img-2.png)
-![imgage](images/img-3.png)
+![imgage](N/main-project-for-Nasty-here/images/img-1.png)
+![imgage](N/main-project-for-Nasty-here/images/img-2.png)
+![imgage](N/main-project-for-Nasty-here/images/img-3.png)
