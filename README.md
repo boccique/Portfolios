@@ -18,6 +18,6 @@ git clone https://github.com/boccique/Portfolio.git
 cd Portfolio
 ```
 
-![imgage](N/main-project-for-Nasty-here/images/img-1.png)
+![imgage](https://github.com/boccique/Portfolios/blob/main/images/img-1.png)
 ![imgage](N/main-project-for-Nasty-here/images/img-2.png)
 ![imgage](N/main-project-for-Nasty-here/images/img-3.png)
