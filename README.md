@@ -19,5 +19,5 @@ cd Portfolio
 ```
 
 ![imgage](https://github.com/boccique/Portfolios/blob/main/images/img-1.png)
-![imgage](N/main-project-for-Nasty-here/images/img-2.png)
-![imgage](N/main-project-for-Nasty-here/images/img-3.png)
+![imgage](https://github.com/boccique/Portfolios/blob/main/images/img-2.png)
+![imgage](https://github.com/boccique/Portfolios/blob/main/images/img-3.png)
