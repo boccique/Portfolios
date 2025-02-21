@@ -1,5 +1,4 @@
         /* || GENERAL STYLES */
-
 *{
     font-family: 'Manrope', sans-serif;
     margin: 0px;
@@ -92,7 +91,19 @@ a.main-menu-class:hover{
     transition: 0.25s;
 }
 
-
+        /*@MEDIA SECTION*/
+@media all and (max-width: 1024px){
+            .menu-list{
+                display: none;
+            }
+            .header-main-section{
+                width: 100%;
+                height: 100px;
+                margin-top: 27px;
+                margin-left: 28px;
+            }
+        }
+        /*END OF @MEDIA SECTION*/
 
         /*FOOTER SECTION*/
 
@@ -102,7 +113,6 @@ footer{
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    bottom: 0;
     background: #262630;
     height: 746px;
     margin-top: 5rem;
@@ -113,8 +123,6 @@ footer{
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    bottom: 0;
-/*    background: #262630;*/
     height: 746px;
 }
 .footer-main-section-for-btns-and-text{
@@ -161,7 +169,7 @@ footer{
     border: 1px solid #FFF;
     margin-left: 507px;
     margin-top: 28px;
-    transition: 0.8s, border 1s ease;
+    transition: 0.8s, border 0.5s ease;
 }
 #email-btn:hover{
     border: 1px solid #262630;
@@ -185,7 +193,7 @@ footer{
     border: 1px solid #FFF;
     margin-left: 86px;
     margin-top: 28px;
-    transition: 0.8s, border 1s ease-in-out;
+    transition: 0.8s, border 0.5s ease-in-out;
 }
 #number-btn:hover{
     border: 1px solid #262630;
@@ -204,7 +212,7 @@ footer{
     margin-left: 31px;
 }
 #writing-btn{
-    width: 157.903px;
+    width: 126px;
     height: 45px;
     border-radius: 29.5px;
     background: #2264DC;
@@ -223,15 +231,6 @@ footer{
     line-height: normal;
     margin-top: 13px;
     margin-left: 31px;
-}
-#dot-in-blue-btn{
-    width: 12px;
-    height: 12px;
-    flex-shrink: 0;
-    background: #FFF;
-    border-radius: 50%;
-    margin-top: 17px;
-    margin-left: 33px;
 }
 .footer-secondary-section{
     position: relative;
@@ -272,30 +271,212 @@ footer{
     width: 44.872px;
 }
 #Behance{
-    cursor: pointer;
     margin-right: 43px;
     width: 54.969px;
     transition: 0.28s ease-in-out;
 }
-#Behance:hover{
-    color: #969696;
-}
 #Github{
-    cursor: pointer;
     margin-right: 40px;
     width: 42.629px;
     transition: 0.28s ease-in-out;
 }
-#Github:hover{
-    color: #969696;
-}
 #Telegram{
-    cursor: pointer;
     margin-right: 191px;
     width: 58.334px;
     transition: 0.28s ease-in-out;
 }
-#Telegram:hover{
-    color: #969696;
+.footer-menu-class{
+    color: #FFF;
 }
+.footer-menu-class:hover{
+    color: #969696
+}
+
+        /*@MEDIA SECTION*/
+@media all and (max-width: 1024px) {
+        footer{
+            position: relative;
+            width:  100%;
+            height: 601px;
+            bottom: 0;
+        }
+        .footer-main-section{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            bottom: 0;
+            height: 601px;
+        }
+        .footer-main-section-for-btns-and-text{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: auto;
+        }
+        .footer-main-text{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            height: auto;
+        }
+        .footer-main-text-section{
+            margin: 0;
+            margin-left: 28px;
+            margin-bottom: 35px;
+            margin-top: 50px;
+            width: 316px;
+            height: 133px;
+            flex-shrink: 0;
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 119.26%; /* 47.704px */
+        }
+        #avatar-for-footer{
+            display: none;
+        }
+        .footer-main-section-btns{
+            width: 100%;
+            align-items: center;
+            gap: 25px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 100%;
+        }
+        #email-btn{
+            width: 319px;
+            height: 52px;
+            border-radius: 29.5px;
+            border: 1px solid #FFF;
+            margin-left: 0;
+            margin-top: 0;
+            transition: 0.8s, border 0.5s ease;
+        }
+        #email-btn:hover{
+            border: 1px solid #262630;
+            border-radius: 29.5px;
+            background: #2264DC;
+        }
+        #email-btn-text{
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 16px;
+            margin-left: 116px;
+        }
+        #number-btn{
+            width: 319px;
+            height: 52px;
+            border-radius: 29.5px;
+            border: 1px solid #FFF;
+            margin-left: 0;
+            margin-top: 0;
+            transition: 0.8s, border 0.5s ease-in-out;
+        }
+        #number-btn:hover{
+            border: 1px solid #262630;
+            border-radius: 29.5px;
+            background: #2264DC;
+        }
+        #number-btn-text{
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 119px;
+            margin-top: 17px;
+            margin-left: 97px;
+        }
+        #writing-btn{
+            margin-top: 44px;
+            width: 317.948px;
+            height: 45px;
+            border-radius: 29.5px;
+            background: #2264DC;
+            margin-left: 0;
+            margin-top: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        #writing-btn-text{
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 13px;
+            margin-left: 127px;
+        }
+        .footer-secondary-section{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: auto;
+        }
+        .line-breaking-through{
+            display: none;
+        }
+        .the-linebreak{
+            display: none;
+        }
+        .external-links{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            color: #FFF;
+            bottom: 0;
+            gap: 19px;
+            font-family: Manrope;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 59px;
+            margin-bottom: 0;
+        }
+        #year2023{
+            margin-left: 28px;
+            margin-right: 0;
+            width: 100%;
+        }
+        #Behance{
+            margin-right: 0;
+            width: 54.969px;
+            transition: 0.28s ease-in-out;
+        }
+        #Github{
+            margin-right: 0;
+            width: 42.629px;
+            transition: 0.28s ease-in-out;
+        }
+        #Telegram{
+            margin-right: 28px;
+            width: 58.334px;
+            transition: 0.28s ease-in-out;
+        }
+        .footer-menu-class{
+            color: #FFF;
+        }
+        .footer-menu-class:hover{
+            color: #969696
+        }
+        }
+        /*END OF @MEDIA SECTION*/
+
         /*END OF FOOTER SECTION*/

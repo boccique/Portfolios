@@ -1,3 +1,6 @@
+*{
+    cursor: none;
+}
 .navigation{
     display: flex;
     flex-direction: column;
@@ -23,14 +26,11 @@
 }
 .nav-pages {
     position: relative;
-    cursor: pointer;
 }
 .nav-pages:after {
 	content: "";
     display: block;
     position: absolute;
-/*    right: 0;*/
-/*    bottom: -3px;*/
     width: 0;
     height: 1px;  /*Высота линии*/
     background-color: #FFF;  /*Цвет подчеркивания при исчезании линии*/
@@ -43,7 +43,6 @@
     display: block;
     position: absolute;
     left: 0;
-/*    bottom: -3px;*/
     height: 1px; /* Высота линии */
     background-color: #FFF; /* Цвет подчеркивания при появлении линии*/
     transition: width 1s;  /* Время эффекта */
@@ -92,4 +91,28 @@ span{
 }
 svg{
     margin-right: 5.69px;
+}
+@media all and (max-width: 1024px){
+    .pages{
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 289px;
+        height: 55px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        width: 289px;
+        height: 55px;
+        margin-left: 26px;
+        margin-top: 145px;
+    }
+    .close{
+        margin-top: 29px;
+        margin-left: 28px;
+    }
 }

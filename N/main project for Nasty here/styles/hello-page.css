@@ -72,12 +72,18 @@ main{
     display: flex;
 }
 .text-site-myself{
+    display: flex;
+    flex-direction: row;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 125px;
+    overflow: hidden;
+    transition: 0.3s;
+    gap: 15px;
 }
 #mysite{
     width: 602px;
@@ -99,6 +105,9 @@ main{
     margin-bottom: 28px;
 }
 .text-site-mama-mila{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
@@ -127,6 +136,9 @@ main{
     margin-bottom: 28px;
 }
 .text-identity-nelepizza{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
@@ -147,7 +159,10 @@ main{
     border-radius: 18px;
     margin-bottom: 28px;
 }
-.text-from-table{
+.text-section-four{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     color: #000;
     font-family: Manrope;
     font-size: 18px;
@@ -159,7 +174,7 @@ main{
     width: 157.903px;
     height: 45px;
     border-radius: 29.5px;
-    border: 1px solid #000;
+    border: 1px solid #262630;
     background: #262630;
     margin-left: 506px;
     transition: 0.8s, border 0.8s ease;
@@ -180,8 +195,130 @@ main{
     border-radius: 29.5px;
     background: #2264DC;
 }
-
-
+@media all and (max-width: 1024px){
+    main{
+        width: 375px;
+        height: 2285px;
+    }
+    .hello-block-section{
+        padding-left: 26px;
+        width: 300px;
+        color: #000;
+        font-family: Manrope;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+}
+    .hello-section-controller{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .hello-section1{
+        margin: 0px;
+        width: 256px;
+        color: #000;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .hello-section2{
+        margin: 0px;
+        width: 245.169px;
+        color: #000;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .photo-section-first{
+        flex-direction: column;
+        width: 319px;
+        gap: 59px;
+    }
+    .photo-section-one{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-left: 26px;
+    }
+    .photo-section-two{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-left: 26px;
+    }
+    #mysite{
+        width: 319px;
+        height: 273px;
+    }
+    #mamamila{
+        width: 319px;
+        height: 273px;
+    }
+    .photo-section-secondary{
+        flex-direction: column;
+        width: 319px;
+        gap: 59px;
+    }
+    #nelepizza{
+        width: 319px;
+        height: 273px;
+    }
+    #from-table{
+        width: 319px;
+        height: 273px;
+    }
+    .photo-section-three{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-left: 26px;
+    }
+    .photo-section-four{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-left: 26px;
+    }
+    .photo-section-main{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+    .photo-site-myself{
+        width: 349px;
+        height: auto;
+    }
+    .x{
+        width: 349px;
+    }
+    .photo-site-mama-mila{
+        width: 349px;
+        height: auto;
+    }
+    .photo-identity-nelepizza{
+        width: 349px;
+        height: auto;
+    }
+    .photo-from-table{
+        width: 349px;
+        height: auto;
+    }
+    body{
+        width: 375px;
+    }
+    .btn-section-more{
+        margin-top: 59px;
+        margin-left: 26px;
+    }
+        }
 
 
 

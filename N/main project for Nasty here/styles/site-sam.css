@@ -1,3 +1,6 @@
+*{
+    cursor: none;
+}
 main{
     position: relative;
     display: flex;

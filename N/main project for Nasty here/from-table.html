@@ -19,23 +19,26 @@
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="styles/close.css">
+    <link rel="stylesheet" href="styles/cursor.css">
     <title>Социальный проект</title>
 </head>
 
 <body>
-
+<div id="cursor">
+  <div class="cursor--inner"></div>
+</div>
 
 
         <header>
             <div class="header-main-section">
                 <div class="active-menu">
-                    <div class="burger" style="cursor:pointer" onclick="openNav()">
+                    <div class="burger" onclick="openNav()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="7" viewBox="0 0 15 7" fill="none">
                             <rect x="15" y="1" width="15" height="0.999998" transform="rotate(-180 15 1)" fill="black"/>
                             <rect x="15" y="7" width="15" height="0.999998" transform="rotate(-180 15 7)" fill="black"/>
                         </svg>
                     </div>
-                    <div class="menu" style="cursor:pointer" onclick="openNav()">Меню</div>
+                    <div class="menu" onclick="openNav()">Меню</div>
                 </div>
                 <div class="text-menu">
                     <ul class="menu-list" id="navbar" style="transition: 0.8s;">
@@ -111,16 +114,16 @@
                         </div>
                     </div>
                     <div class="footer-main-section-btns">
-                        <div id="email-btn">
+                        <a href="mailto:mail.ri@bk.ru" target="_blank"><div id="email-btn">
                             <div id="email-btn-text">mail.ri@bk.ru</div>
-                        </div>
+                        </div></a>
                         <div id="number-btn">
                             <div id="number-btn-text">+ 8 983 254 15 65</div>
                         </div>
+                        <a href="https://t.me/Civly" target="_blank">
                         <div id="writing-btn">
                             <div id="writing-btn-text">Написать</div>
-                            <div id="dot-in-blue-btn"></div>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
                 <div class="footer-secondary-section">
@@ -129,9 +132,12 @@
                     </div>
                     <div class="external-links">
                         <div id="year2023">© 2023</div>
-                        <div id="Behance">Behance</div>
-                        <div id="Github">Github</div>
-                        <div id="Telegram">Telegram</div>
+                        <a href="https://www.behance.net/anastasiachernova" target="_blank"
+                           class="footer-menu-class"><div id="Behance">Behance</div></a>
+                        <a href="https://github.com/Frerioc" target="_blank"
+                           class="footer-menu-class"><div id="Github">Github</div></a>
+                        <a href="https://t.me/Civly" target="_blank"
+                           class="footer-menu-class"><div id="Telegram">Telegram</div></a>
                     </div>
                 </div>
             </div>
@@ -139,6 +145,7 @@
 
 <script src="js/script-menu.js"></script>
 <script src="js/menu-leaving.js"></script>
+<script src="js/cursor.js"></script>
 
 </body>
 </html>

@@ -1,13 +1,12 @@
         /* || GENERAL STYLES */
 
-*{
+*{  cursor: none;
     font-family: 'Manrope', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 header{
     position: fixed;
-
 }
 body{
     width: 100%;
@@ -148,7 +147,6 @@ main{
     gap: 86px;
 }
 .btn1{
-    cursor: pointer;
     width: 145px;
     height: 45px;
     border-radius: 29.5px;
@@ -185,7 +183,6 @@ main{
     line-height: normal;
 }
 .btn2{
-    cursor: pointer;
     width: 181px;
     height: 45px;
     border-radius: 29.5px;
@@ -231,7 +228,6 @@ main{
     gap: 6px;
 }
 .link{
-    cursor: pointer;
     color: #FFF;
     font-family: Manrope;
     font-size: 16px;
@@ -286,7 +282,6 @@ main{
     width: 100%;
 }
 .links{
-    cursor: pointer;
     color: #FFF;
     font-family: Manrope;
     font-size: 12px;
