@@ -1,5 +1,5 @@
 # The Portfolio of N&V
-### A personal web application designed to showcase my skills and projects in web development and design. The website includes interactive elements, dynamic content, and a clean, modern design built with HTML, CSS, and JavaScript.
+### A personal web application designed to showcase skills and projects in web development and design. The website includes interactive elements, dynamic content, and a clean, modern design built with HTML, CSS, and JavaScript.
 
 Features:
  - **HTML, CSS, JavaScript** – Used for frontend design and dynamic content.    
